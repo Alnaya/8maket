@@ -62,8 +62,8 @@
     display: none;
   }
   .mockup_1 {
-    max-height: 250px;
-    right: -10%;
+    min-height: 450px;
+    right: -55%;
   }
   .mockup_2 {
     display: none;
