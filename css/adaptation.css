@@ -1,3 +1,5 @@
+/* TODO: вроде бы работает до 300px */
+
 /* ==== root start ==== */
 
 @media screen and (max-width: 840px){
@@ -9,18 +11,6 @@
   }
   p, b, a, button, li {
     font-size: var(--p-sm);
-  }
-}
-
-@media screen and (max-width: 580px) {
-  h1 {
-    font-size: var(--h1-sm1);
-  } 
-  h2 {
-    font-size: var(--h2-sm1);
-  }
-  p, b, a, button, li {
-    font-size: var(--p-sm1);
   }
 }
 
@@ -41,11 +31,18 @@
     display: none;
   }
   .mockup_1 {
-    max-height: 300px;
-    right: 5%;
+    height: 600px;
+    right: -20vh;
   }
   .mockup_2 {
-    left: 5%;
+    left: -20vh;
+  }
+  .fruit_1 {
+    margin-top: -500px;
+  }
+  .fruit_4 {
+    margin-top: 500px;
+    margin-left: 0px;
   }
   .fruit_3 {
     margin-left: -200px;
@@ -61,13 +58,16 @@
   }
   .mockup_1 {
     min-height: 450px;
-    right: -65%;
+    right: -30vh;
   }
   .mockup_2 {
-    display: none;
+    left: -20vh;
   }
   .fruit_3 {
     margin-left: -100px;
+  }
+  .fruit_4 {
+    margin-left: 200px;
   }
   .fruit_9 {
     margin-bottom: 175px;
@@ -85,19 +85,22 @@
   .mockup_1 {
     max-height: 200px;
   }
+  .mockup_2 {
+    left: -20vh;
+  }
   .section-two {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
   }
+  .btn_download {
+    min-width: 140px;
+  }
   .advantages {
     position: relative;
     margin-bottom: 0;
     left: 0;
-  }
-  .mockup_2 {
-    display: none;
   }
   .fruit_1 {
     margin-top: -150px;
@@ -118,6 +121,72 @@
   }
   .fruit_9 {
     margin-left: 75%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section-one {
+    justify-content: center;
+  }
+  .offer {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .img {
+    margin-left: 15vh;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+  }
+  .mockup_1 {
+    display: none;
+  }
+  .mockup_2 {
+    display: none;
+  }
+  .content h1 {
+    font-size: 25px;
+  }
+  .content h2 {
+    font-size: 15px;
+  }
+  .advantages {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .advantages h1 {
+    font-size: 25px;
+  }
+  .advantages h2 {
+    font-size: 15px;
+    min-width: 200px;
+  }
+  .section-three h1{
+    font-size: 25px;
+  }
+  .section-three h2{
+    font-size: 15px;
+  }
+  .meal-time h1 {
+    font-size: 25px;
+  }
+  .meal-time h2 {
+    font-size: 15px;
+  }
+  .cta h1 {
+    font-size: 25px;
+  }
+  .cta h2 {
+    font-size: 15px;
+  }
+  .eat h2 {
+    display: none;
   }
 }
 
