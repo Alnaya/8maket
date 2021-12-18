@@ -188,6 +188,13 @@
   .eat h2 {
     display: none;
   }
+  .img {
+    margin: 0;
+  }
+  .pic {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* ==== style end ==== */
