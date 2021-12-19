@@ -42,6 +42,9 @@ p, b, a, button, li {
 html, body {
   height: 100%;
 }
+span {
+  color: var(--green);
+}
 
 header {
   text-align: center;
